@@ -221,7 +221,12 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
- 
+"""
+If you import this script as a module in another script, the __name__ is set 
+to the name of the script/module.Python files can act as either reusable modules, 
+or as standalone programs.if __name__ == “main”: is used to execute some code only 
+if the file was run directly, and not imported. 
+"""
  
 if __name__ == "__main__":
 	main()
