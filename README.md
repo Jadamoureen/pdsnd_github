@@ -18,5 +18,8 @@ This program was written in Python (Version 3.8.5) and relies on the following l
 
 The “time” module allows us to handle various operations regarding time in the bikeshare project.
 
+### Useful guidelines
 
-
+[Pandas Documentation] (https://pandas.pydata.org/docs/)
+[Numpy Documentation] (https://numpy.org/doc/)
+[Time access and conversions] (https://docs.python.org/3/library/time.html)
