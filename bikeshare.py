@@ -1,3 +1,7 @@
+"""Import in Python helps you to refer to the code, i.e., .functions/objects 
+that are written in another file. It is also used to import python libraries/packages 
+are installed using pip(python package manager), and you need then to use in your code.
+"""
 import time
 import pandas as pd
 import numpy as np
