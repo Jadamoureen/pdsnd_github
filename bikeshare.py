@@ -38,7 +38,7 @@ def get_filters():
     while day not in ('Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday','Saturday', 'Sunday'):
         day = input("Sorry, I didn't find your choice. Try again.\n").title()
  
- 
+    #returning in a format of city, month, day
     print('-'*40)
     return city, month, day
  
