@@ -1,3 +1,7 @@
+"""Import in Python helps you to refer to the code, i.e., .functions/objects 
+that are written in another file. It is also used to import python libraries/packages 
+are installed using pip(python package manager), and you need then to use in your code.
+"""
 import time
 import pandas as pd
 import numpy as np
@@ -34,7 +38,7 @@ def get_filters():
     while day not in ('Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday','Saturday', 'Sunday'):
         day = input("Sorry, I didn't find your choice. Try again.\n").title()
  
- 
+    #returning in a format of city, month, day
     print('-'*40)
     return city, month, day
  
@@ -217,7 +221,12 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
- 
+"""
+If you import this script as a module in another script, the __name__ is set 
+to the name of the script/module.Python files can act as either reusable modules, 
+or as standalone programs.if __name__ == “main”: is used to execute some code only 
+if the file was run directly, and not imported. 
+"""
  
 if __name__ == "__main__":
 	main()
